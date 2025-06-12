@@ -25,7 +25,7 @@ const EnquiryForm = () => {
     setErrorMsg("");
 
     try {
-      const res = await fetch("http://178.248.112.16:5000/api/enquiry", {
+      const res = await fetch("http://localhost:5000/api/enquiry", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

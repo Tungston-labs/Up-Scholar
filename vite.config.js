@@ -5,8 +5,14 @@ export default defineConfig({
     tailwindcss(),
     
   ],
-  server:{
-    host:"0.0.0.0",
-    port:5173
+server: {
+  host: '0.0.0.0',
+  port: 5173,
+  strictPort: true,
+  hmr: {
+    protocol: 'ws',
+    host: '178.248.112.16', // Replace with your VPS IP
   }
+}
+
 })

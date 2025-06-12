@@ -6,4 +6,5 @@ const router = express.Router();
 
 router.post("/enquiry", enquiry);
 
+
 module.exports = router;
