@@ -11,7 +11,7 @@ server: {
   strictPort: true,
   hmr: {
     protocol: 'ws',
-    host: '178.248.112.16', // Replace with your VPS IP
+    host: '178.248.112.16', 
   }
 }
 
