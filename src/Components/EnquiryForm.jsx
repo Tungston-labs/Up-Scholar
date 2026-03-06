@@ -63,7 +63,6 @@ const EnquiryForm = () => {
       }}
     >
       <div className="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between gap-10">
-        {/* Left Text Section */}
         <div className="w-full md:w-1/2 text-white text-center md:text-left">
           <h2 className="text-xl md:text-4xl font-bold md:font-bold text-blue-700 mb-3 md:mb-4">
             Enquiry
@@ -76,7 +75,6 @@ const EnquiryForm = () => {
           </p>
         </div>
 
-        {/* Form Section */}
         <div
           className="w-full md:w-1/2 p-8 rounded-xl shadow-lg"
           style={{ backgroundColor: "#E1EAF9" }}

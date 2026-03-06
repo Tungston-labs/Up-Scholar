@@ -5,89 +5,119 @@ const missionVisionData = [
     title: "Our Mission",
     image: "/images/mission_1628441 1.png",
     description:
-      "Our mission at Up Scholar Hub is to empower individuals with accessible and accurate pathways for global education and migration. We are dedicated to providing expert, personalized support, ensuring every applicant is guided insightfully from the guidance needed to confidently live and thrive abroad.",
+      "To simplify global mobility by unlocking the four pathways of opportunity—employment,self-employment, business ownership, and investment—through transparent advisory,intelligent technology, and expert-led execution. We empower people to move, work,build, and invest globally with clarity, confidence, and long-term impact.",
   },
   {
     title: "Our Vision",
     image: "/images/Layer_1.png",
     description:
-      "We envision a world where the dream of international education and building a new life abroad is within everyone's reach. Up Scholar Hub aspires to be the transformative consultancy exceptional in global standards, helping clients turn their dreams into applications, experiences, and new lives across borders.",
+      "To become the world’s most trusted platform enabling individuals and enterprises to build global careers, businesses, and up—without borders.",
   },
 ];
 
 const serviceCards = [
   {
-    title: "Show Money Assistance",
+    title: "Direct Application Support (Agent-Free)",
     description:
-      "Expert guidance and support in fulfilling financial requirements for your visa application.",
+      "End-to-end application assistance with no intermediaries, ensuring transparency and accuracy.",
     image: "/images/Layer 10.png",
   },
   {
-    title: "Visa & Emigration Assistance",
+    title: "Career Counseling & Strategic Guidance",
     description:
-      "Comprehensive support for all types of visas, from student to work and immigration, ensuring a smooth application process.",
+      "Personalized career advisory to align global opportunities with individual goals.",
     image: "/images/visa 3.png",
   },
   {
-    title: "Visa Slot Booking",
+    title: "Document & Digital Portfolio Enhancement",
     description:
-      "Timely and efficient assistance in securing crucial visa appointment slots.",
+      "Professional enhancement of resumes, profiles, and web-based portfolios to meet international standards.",
     image: "/images/Layer_x0020_1.png",
   },
   {
-    title: "Income Tax Report Filing Assistance",
+    title: "Interview Preparation & Mock Interview Training",
     description:
-      "Professional help with income tax report preparation and filing, ensuring compliance for your applications.",
+      "Structured interview coaching, including real-world simulations and expert feedback.",
     image: "/images/ITR 1.png",
   },
   {
-    title: "CIBIL Score Assistance",
+    title: "LinkedIn Profile Optimization",
     description:
-      "Guidance on understanding and improving your credit score, crucial for many financial applications.",
+      "Strategic personal branding and profile optimization to improve global visibility and recruiter reach.",
     image: "/images/cibil score 1.png",
   },
   {
-    title: "Education Loan Assistance",
+    title: "CV & Cover Letter Development",
     description:
-      "Connecting you with suitable financial institutions and assisting with your education loan application process.",
+      "Professionally crafted CVs and cover letters tailored to international job markets and visa requirements.",
     image: "/images/education loan 1.png",
   },
   {
-    title: "Migration Support",
+    title: "Skill-Based Certification Programs",
     description:
-      "End-to-end support for your migration journey, including documentation, applications and guidance.",
+      "Access to curated certification courses aligned with in-demand global skills.",
     image: "/images/Vector.png",
   },
   {
-    title: "Accommodation Assistance",
+    title: "Certified Skill Licensing Support",
     description:
-      "Helping you find suitable and safe accommodation in your destination country.",
+      "Guidance for obtaining recognized skill licenses, including support where third-party fees apply.",
     image: "/images/housing solutions 1.png",
   },
   {
-    title: "Pre & Post Departure Support",
+    title: "AI-Powered Interview & Career Toolkit",
     description:
-      "Comprehensive support, from predeparture briefings to initial settlement assistance upon arrival.",
+      "Advanced AI tools to support interview preparation, career positioning, and performance improvement.",
     image: "/images/17 Travel insurance.png",
   },
   {
-    title: "Career Counseling & Course Selection",
+    title: "Native Language Learning Support",
     description:
-      "Expert advice on choosing the right courses and institutions that align with your career goals.",
+      "Language learning assistance customized to the destination country and professional requirements.",
     image: "/images/Group (1).png",
   },
   {
-    title: "SOP & LOR Review",
+    title: "Skill Assessment & Verification Support",
     description:
-      "Professional review and enhancement of your Statement of Purpose (SOP) and Letters of Recommendation (LOR).",
+      "Assistance with skill assessments and verification across relevant international assessment bodies.",
     image: "/images/g5784.png",
   },
   {
-    title: "Application & Admission Guidance",
+    title: "Post-Placement Growth Consulting",
     description:
-      "Meticulous assistance with university and college applications, ensuring all requirements are met.",
-    image: "/images/_x32_3_intersection_x2C__way_x2C__choice_x2C__voter_x2C__vote_x2C__politics_x2C__voting.png",
+      "Ongoing career growth and progression advisory after placement or migration.",
+    image:
+      "/images/_x32_3_intersection_x2C__way_x2C__choice_x2C__voter_x2C__vote_x2C__politics_x2C__voting.png",
   },
+  {
+    title: "End-to-End Pre & Post Assistance",
+    description:
+      "Ongoing career growth and progression advisory after placement or migration.",
+    image:
+      "/images/technological-support (1) 1.png",
+  },
+  {
+    title: "Career Fair Intelligence & Updates",
+    description:
+      "Timely information and guidance on global career fairs and hiring events.",
+    image:
+      "/images/guidances 1.svg",
+  },
+  {
+    title: "Real-World Project Opportunities",
+    description:
+      "Access to practical, industry-aligned projects to build global experience.",
+    image:
+      "/images/closure 1.png",
+  },
+  {
+    title: "Professional Networking & Mentorship Sessions",
+    description:
+      "Curated networking channels and expert-led sessions to expand global professional connections.",
+    image:
+      "/images/leadership 1.png",
+  },
+
 ];
 
 const AboutSection = () => {
@@ -96,7 +126,6 @@ const AboutSection = () => {
       className="w-full bg-cover bg-no-repeat"
       style={{ backgroundImage: "url('/images/Frame 399.png')" }}
     >
-      {/* Mission & Vision */}
       <div className="text-center pt-6 md:pt-20 px-4 md:px-6">
         <h2 className="text-2xl md:text-4xl font-bold md:font-bold text-[#0E53CC] font-poppins">
           Our Mission & Vision
@@ -123,7 +152,6 @@ const AboutSection = () => {
         </div>
       </div>
 
-      {/* Our Services */}
       <div className="text-center pt-10 md:pt-20 px-4 md:px-6">
         <h2
           className="text-2xl md:text-4xl font-bold md:font-bold text-[#0E53CC] font-poppins"
@@ -132,7 +160,10 @@ const AboutSection = () => {
           Our Services
         </h2>
         <p className="text-[#0E53CC] max-w-3xl mx-auto mt-2 font-poppins text-sm md:text-base">
-          Navigating the path to international education or migration can be daunting, but with Up Scholar Hub, you're never alone. We offer a holistic suite of services designed to cover every aspect of your journey:
+          One platform. Four global pathways. Unlimited possibilities. From
+          careers to capital — your gateway to global opportunity. Building
+          global careers, businesses, and futures. Where talent, business, and
+          investment go global.{" "}
         </p>
 
         <div
