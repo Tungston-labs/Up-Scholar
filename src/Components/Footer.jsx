@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-10 flex flex-col md:flex-row justify-between items-start gap-10">
         <div className="flex flex-col text-left">
           <img
-            src="/images/logo 1-01 1.png"
+            src="/images/logos.svg"
             alt="Upscholar Logo"
             className="w-48 mb-4"
           />
@@ -20,8 +20,10 @@ const Footer = () => {
           <div className="flex items-start gap-2">
             <MapPin className="w-5 h-5 mt-1" />
             <p>
-              Up scholar hub <br/> Second floor PVM Heights,<br/>
-               One Way Junction,<br/>
+              Up scholar hub <br /> Second floor PVM Heights,
+              <br />
+              One Way Junction,
+              <br />
               Muvattupuzha, Kerala 686673
             </p>
           </div>

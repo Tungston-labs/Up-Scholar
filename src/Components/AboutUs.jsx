@@ -7,7 +7,7 @@ const AboutUsSection = () => {
       className="w-full bg-[#0E53CC] text-[#DDE8F9] font-poppins py-10 px-6 md:px-[91px] flex flex-col gap-4"
     >
       <h2 className="text-2xl md:text-4xl font-bold">About us</h2>
-      <p className="text-base md:text-lg leading-relaxed ">
+      <p className="text-base md:text-lg leading-relaxed text-justify">
         Upscholar is a global career and immigration advisory platform enabling
         individuals, professionals, entrepreneurs, and investors to access
         international opportunities with clarity and confidence. Our purpose is

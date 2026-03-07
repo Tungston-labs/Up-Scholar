@@ -7,16 +7,14 @@ const Navbar = () => {
 
   return (
     <nav className="w-full bg-white shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-2xl px-6 py-4 flex items-center justify-between relative">
-      {/* Logo */}
       <div className="flex items-center space-x-3">
         <img
-          src="/images/logo 1-01 1.png"
+          src="/images/logos.svg"
           alt="UPSCHOLAR Logo"
-          className="h-12 w-auto object-contain"
+          className="h-8 sm:h-10 md:h-12 w-auto object-contain"
         />
       </div>
 
-      {/* Desktop Nav */}
       <div className="hidden md:flex items-center space-x-8">
         <a
           href="#aboutUs"
@@ -37,7 +35,6 @@ const Navbar = () => {
         </a>
       </div>
 
-      {/* Hamburger Icon */}
       <button
         className="md:hidden focus:outline-none"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -45,7 +42,6 @@ const Navbar = () => {
         <Menu className="text-blue-600 w-8 h-8" />
       </button>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="absolute top-full left-0 w-full bg-white shadow-md rounded-b-2xl py-4 px-6 flex flex-col items-start space-y-4 md:hidden z-50">
           <a
