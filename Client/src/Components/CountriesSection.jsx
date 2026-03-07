@@ -1,39 +1,3 @@
-// import React from "react";
-
-// const CountriesSection = () => {
-//   const cards = Array(6).fill(null);
-
-//   return (
-//     <section
-//       className="py-10 md:py-16 px-4 md:px-20 font-poppins text-white text-center bg-cover bg-center"
-//       style={{
-//         backgroundImage: "url('/images/Frame 60.png')",
-//       }}
-//     >
-//       {" "}
-//       <h2 className="text-xl md:text-4xl font-bold mb-2 md:mb-4">
-//         Our Products & Services{" "}
-//       </h2>
-//       <p className="text-xs md:text-lg max-w-3xl mx-auto mb-6 md:mb-10 text-white/90 leading-relaxed md:leading-normal">
-//         Up Scholar Hub specializes in facilitating opportunities across some of
-//         the most sought-after destinations for international students and
-//         migrants. While we cater to all of Europe, our primary focus includes:
-//       </p>
-//       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 justify-items-center">
-//         {cards.map((_, idx) => (
-//           <div
-//             key={idx}
-//             className="bg-white rounded-xl shadow-md 
-//                    w-full max-w-[274px] 
-//                    h-[200px] sm:h-[220px] md:h-[240px] lg:h-[263px]"
-//           />
-//         ))}
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default CountriesSection;
 
 import React from "react";
 
